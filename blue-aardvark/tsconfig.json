@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "blue-aardvark/schemasrrr/index", "blue-aardvark/schemasss/index", "blue-aardvark/schemas/index.js"],
+  "include": ["**/*.ts", "**/*.tsx", "schemasrrr/index", "schemasss/index", "schemas/index.js"],
   "exclude": ["node_modules"]
 }

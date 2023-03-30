@@ -5,12 +5,9 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
     './app/**/*.{js,ts,jsx,tsx}',
   ],
+
   theme: {
-    extend: {
-      fontFamily: {
-        body: ["Poppins", "sans-serif"],
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
